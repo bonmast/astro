@@ -6,6 +6,9 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Astro with Starlight Lab',
+			customCss: [
+				'./src/styles/lab.css'
+			],
 			social: {
 				github: 'https://github.com/bonmast/astro-lab',
 			},
