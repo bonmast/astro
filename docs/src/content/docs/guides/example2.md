@@ -1,8 +1,9 @@
 ---
 title: Example Guide 2
-badge:
-	text: New
-	variant: tip
+sidebar:
+	badge:
+		text: New
+		variant: tip
 ---
 
 Add an image

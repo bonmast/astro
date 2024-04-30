@@ -1,8 +1,7 @@
 ---
 title: Example Guide
-badge:
-	text: New
-	variant: tip
+sidebar:
+	order: 1
 ---
 
 An example of a basic code block
