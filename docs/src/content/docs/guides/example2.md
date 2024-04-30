@@ -8,4 +8,4 @@ sidebar:
 
 Add an image
 
-![image](src/assets/images/speaker.png)
+![speaker](../../assets/images/speaker.png)
