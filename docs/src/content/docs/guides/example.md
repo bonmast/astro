@@ -2,22 +2,26 @@
 title: Example Guide
 badge:
 	text: New
-	variant: note
+	variant: tip
 ---
 
 An example of a code block
 
 ```powershell
-Write-Host "Hello there!"
+// PowerShell
+foreach ($file in $files) {
+	Write-Host $file
+}
 ```
 
-A more coomplex example of a code block
+A more complex example of a code block
 
 ```diff lang="powershell"
-// test.ps1
-- Write-Host "Hello there!"
-+ Write-Host "No, goodbye!"
-Write-Host "Ok then!"
+// files.ps1
+foreach ($file in $files) {
+-  Write-Host $file
++  Write-Host $file.Path
+}
 ```
 An example of simple asides
 
