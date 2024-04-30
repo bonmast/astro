@@ -26,7 +26,7 @@ This is a warning
 :::
 
 :::danger[Stop]
-This is danger
+This is a serious warning
 :::
 
 :::note
