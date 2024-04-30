@@ -1,7 +1,5 @@
 ---
 title: Example Guide
-sidebar:
-	order: 1
 ---
 
 An example of a basic code block
