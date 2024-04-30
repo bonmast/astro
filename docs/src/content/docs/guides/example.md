@@ -14,6 +14,15 @@ foreach ($file in $files) {
 }
 ```
 
+The same example as above, but with a title
+
+```powershell title="PowerShell Example"
+// PowerShell
+foreach ($file in $files) {
+	Write-Host $file
+}
+```
+
 A more complex example of a code block
 
 ```diff lang="powershell"
