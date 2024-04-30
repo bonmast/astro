@@ -1,11 +1,34 @@
 ---
 title: Example Guide
-description: A guide in my new Starlight docs site.
+badge:
+	text: New
+	variant: note
 ---
 
-Guides lead a user through a specific task they want to accomplish, often with a sequence of steps.
-Writing a good guide requires thinking about what your users are trying to do.
+An example of a code block
 
-## Further reading
+```powershell
+Write-Host "Hello there!"
+```
 
-- Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework
+A more coomplex example of a code block
+
+```diff lang="powershell"
+// test.ps1
+- Write-Host "Hello there!"
++ Write-Host "No, goodbye!"
+Write-Host "Ok then!"
+```
+An example of simple asides
+
+:::caution
+This is a warning
+:::
+
+:::danger
+This is danger
+:::
+
+:::note
+This is a note
+:::
