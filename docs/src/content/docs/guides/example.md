@@ -39,7 +39,7 @@ foreach ($file in $files) {
 
 An example of a basic code block, with a title and a code frame
 
-```powershell frame="code"
+```powershell
 // files.ps1
 foreach ($file in $files) {
 	Write-Host $file
