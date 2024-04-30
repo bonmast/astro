@@ -1,5 +1,7 @@
 ---
 title: Example Guide
+sidebar:
+	badge: New
 ---
 
 An example of a basic code block

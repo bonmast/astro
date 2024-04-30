@@ -1,9 +1,7 @@
 ---
 title: Example Guide 2
 sidebar:
-	badge:
-		text: New
-		variant: tip
+	badge: New
 ---
 
 Add an image
