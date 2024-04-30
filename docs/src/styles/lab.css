@@ -1,3 +1,6 @@
+:root {
+	--sl-content-width: 50rem;
+}
 /* Dark mode colors. */
 :root {
 	--sl-color-accent-low: #05292d;
