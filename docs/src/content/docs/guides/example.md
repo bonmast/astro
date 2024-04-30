@@ -21,11 +21,11 @@ Write-Host "Ok then!"
 ```
 An example of simple asides
 
-:::caution
+:::caution[Warning]
 This is a warning
 :::
 
-:::danger
+:::danger[Stop]
 This is danger
 :::
 
