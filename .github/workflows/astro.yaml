@@ -2,7 +2,7 @@ name: Deploy Astro to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
     paths:
       - 'docs/**'
   workflow_dispatch:
@@ -17,9 +17,9 @@ jobs:
     #runs-on: ubuntu-latest
     runs-on: self-hosted
     steps:
-      - name: Checkout your repository using git
+      - name: Checkout repository using git
         uses: actions/checkout@v4
-      - name: Install, build, and upload your site
+      - name: Install, build, and upload site artifact
         uses: withastro/action@v2
         with:
           path: ./docs
@@ -36,15 +36,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-  clean:
-    needs: build
-    runs-on: self-hosted
-    steps:
-      - name: Cleanup build folder
-        run: |
-          ls -la ./
-          rm -rf ./* || true
-          rm -rf ./.??* || true
-          ls -la ./
-        id: clean
