@@ -6,6 +6,6 @@ sidebar:
     variant: tip
 ---
 
-Add a test image
+Add a test image below
 
 ![speaker](../../../assets/images/speaker.png)
