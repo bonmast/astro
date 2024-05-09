@@ -14,8 +14,8 @@ permissions:
 
 jobs:
   Build:
-    #runs-on: ubuntu-latest
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
+    #runs-on: self-hosted
     steps:
       - name: Checkout repository using git
         uses: actions/checkout@v4
@@ -27,8 +27,8 @@ jobs:
 
   Deploy:
     needs: Build
-    #runs-on: ubuntu-latest
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
+    #runs-on: self-hosted
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
